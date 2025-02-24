@@ -1,12 +1,9 @@
 #include <iostream>
 
 int main() {
-  double ml = 1.5;
-  std::cout << "After five years the ocean's level will be higher by " << ml * 5
-            << " ml." << std::endl;
-  std::cout << "After seven years the ocean's level will be higher by "
-            << ml * 7 << " ml." << std::endl;
-  std::cout << "After ten years the ocean's level will be higher by " << ml * 10
-            << " ml." << std::endl;
-  return 0;
+  int surv = 16500;
+          int drinkers = surv * 0.15;
+          int citrus = drinkers * 0.58;
+std::cout << "According to a survey of " << surv << " people approximately " << drinkers << " people buy an energy drink every week and " << citrus << " of those people prefer citrus flavored energy drinks" << std::endl;
 }
+
