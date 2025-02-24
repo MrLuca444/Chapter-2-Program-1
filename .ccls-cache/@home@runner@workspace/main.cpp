@@ -1,12 +1,9 @@
 #include <iostream>
 
 int main() {
-  double ml = 1.5;
-  std::cout << "After five years the ocean's level will be higher by " << ml * 5
-            << " ml." << std::endl;
-  std::cout << "After seven years the ocean's level will be higher by "
-            << ml * 7 << " ml." << std::endl;
-  std::cout << "After ten years the ocean's level will be higher by " << ml * 10
-            << " ml." << std::endl;
-  return 0;
+  int gals = 20;
+double  mpgt = 23.5;
+double mpgh = 28.9;
+ std::cout << "The car can drive " << gals * mpgt << " miles on a full tank of gas when driven in town, and " << gals * mpgh << " miles on a full tank of gas when driven on the highway. " << std::endl;
 }
+
